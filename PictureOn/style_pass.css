@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+}
+.pass_site{
+	background-image: url(../PictureOn/site_bg.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contener{
+	margin: 0px 160px;
+}
+.hat-line{
+	padding-top: 25px;
+	display: flex;
+	align-items: center;
+}
+form{
+	display: block;
+	padding: 50px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+form input{
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 20px;
+	//margin-left: 40%;
+	width: 25%;
+	height: 35px;
+	border: 1px solid #ff8c00;
+}
+
+.log_button{
+	width: 25%;
+	font-size: 14pt;
+	color: white;
+	background: #A5260A;
+	height: 55px;
+	padding: 10px;
+	border: 1px solid #F5C4AB;
+}
+
+.log_button:hover{
+	border: 1px solid white;
+}
+
+.reg_button{
+	display: block;
+	padding: 50px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.reg_button1{
+	width: 25%;
+	font-size: 14pt;
+	color: white;
+	background: #25221B;
+	height: 55px;
+	padding: 10px;
+	border: 1px solid #F5C4AB;
+	text-decoration: none;
+}
+
+.reg_button1:hover{
+	border: 1px solid white;
+}

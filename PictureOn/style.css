@@ -1,0 +1,12 @@
+body{
+	margin: 0;
+}
+.site{
+	background-image: url(../PictureOn/site_bg.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contener{
+	margin: 0px 160px;
+}

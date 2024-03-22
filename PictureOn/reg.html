@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="reg_style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PictureOn</title>
+</head>
+<body>
+<div class="reg_site">
+	<div class="header">         
+		<div class="contener">						<!--Контейнер, для упрощения выравнивания разделов-->
+			<div class="hat-line">                <!--Это контейнер с верхушкой сайта(Меню(будет уточнее в будующем), какие-то функции(Если потом появятся), лого)-->
+				<div class="site_logo">
+					<img src="../PictureOn/site_logo.png" alt="Лого сайта"/>
+				</div>
+				<div class="site_name">					<!--Название сайта-->
+					<h1 style="font-family: Cascadia Code; font-size: 70px">
+						<span style='color:#25221B'>Picture</span><span style='color:#A5260A'>On</span>
+					</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="reg_window">     										<!--Окно входа-->
+		<form action="register.php" method="post">
+			<label style="font-family: Comic Sans MS;" for="username">Имя пользователя:</label><br>
+			<input class="username" type="text" name="username"><br>
+
+
+			<label style="font-family: Comic Sans MS;" for="password">Пароль:</label><br>
+			<input class="password" type="password"  name="password"><br>
+
+
+			<label style="font-family: Comic Sans MS;" for="rep_password">Повторите пароль:</label><br>
+			<input class="password" type="password"  name="rep_password"><br>
+
+
+			<button style="font-family: Comic Sans MS;" class="reg_button" type="submit">Зарегистрироваться</button>
+		</form>
+
+		<div class="log_button">										<!--Кнопка на регистрацию-->
+			<p style="font-family: Comic Sans MS;">Уже есть аккаунт?</p>
+			<a class="log_button1" style="font-family: Comic Sans MS;" href="pass.html">Войти</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
